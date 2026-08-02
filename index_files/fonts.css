@@ -1,0 +1,824 @@
+@charset "utf-8";
+/* July 15, 2026 : font-revision-v4 */
+
+/* 41 */
+@font-face {
+    font-family: 'cmiTxt';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-Light.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Light.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Light.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+/* 42 */
+@font-face {
+    font-family: 'cmiTxt';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-LightItalic.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-LightItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-LightItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+/* 43 */
+@font-face {
+    font-family: 'cmiTxt';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-Regular.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Regular.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* 44 */
+@font-face {
+    font-family: 'cmiTxt';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-RegularItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-RegularItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-RegularItalic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+/* 45 */
+@font-face {
+    font-family: 'cmiTxt';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBold.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBold.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/* 46 */
+@font-face {
+    font-family: 'cmiTxt';
+     src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBoldItalic.woff2') format('woff2'),
+         url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBoldItalic.woff') format('woff'),
+         url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+/* 47 */
+@font-face {
+    font-family: 'cmiTxt';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-Bold.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Bold.woff') format('woff'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Bold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/* 48 */
+@font-face {
+    font-family: 'cmiTxt';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-BoldItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-BoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-BoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+/* 49 */
+@font-face {
+    font-family: 'cmiTxt';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-ExtraBold.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-ExtraBold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-ExtraBold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+/* 50 */
+@font-face {
+    font-family: 'cmiTxt';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-ExtraBoldItalic.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-ExtraBoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+/* end cmiText v4 */
+
+/* Cummins Text Condensed */
+
+/* 51 */
+@font-face {
+    font-family: 'cmiTxtCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-Light.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-Light.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-Light.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+/* 52 */
+@font-face {
+     font-family: 'cmiTxtCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-LightItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-LightItalic.woff') format('woff'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-LightItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+/* 53 */
+@font-face {
+    font-family: 'cmiTxtCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-Regular.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-Regular.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* 54 */
+@font-face {
+    font-family: 'cmiTxtCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-RegularItalic.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-RegularItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-RegularItalic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+/* 55 */
+@font-face {
+    font-family: 'cmiTxtCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-SemiBold.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-SemiBold.woff') format('woff'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-SemiBold.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/* 56 */
+@font-face {
+     font-family: 'cmiTxtCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-SemiBoldItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-SemiBoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* 57 */
+@font-face {
+     font-family: 'cmiTxtCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBold.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 58 */
+@font-face {
+    font-family: 'cmiTxtCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBoldItalic.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* end cmiTxtCn v4*/
+
+
+/* cmiDisplay V4 */
+/* 59 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Hairline.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Hairline.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Hairline.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+    
+}
+/* 60 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-HairlineItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-HairlineItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-HairlineItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+/* 61 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraLight.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraLight.woff') format('woff'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+/* 62 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraLightItalic.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraLightItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraLightItalic.ttf') format('ttf');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* 63 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Light.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Light.woff') format('woff'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+/* 64 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-LightItalic.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-LightItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-LightItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+/* 65 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Thin.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Thin.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Thin.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+/* 66 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ThinItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ThinItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ThinItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* 67 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Regular.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Regular.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* 68 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-RegularItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-RegularItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-RegularItalic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+/* 69 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-SemiBold.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-SemiBold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-SemiBold.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/* 70 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-SemiBoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+/* 71 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Bold.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Bold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Bold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/* 72 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-BoldItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-BoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-BoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+/* 73 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraBold.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraBold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraBold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+/* 74 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraBoldItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraBoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+/* 75 */
+@font-face {
+    font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Black.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Black.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Black.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+/* 76 */
+@font-face {
+   font-family: 'cmiDisplay';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-BlackItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-BlackItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-BlackItalic.ttf') format('ttf');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+/* end of cmiDisplay V4 */
+
+
+/* cmiDisplayCn V4*/
+/* 77 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Hairline.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Hairline.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Hairline.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+/* 78 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-HairlineItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-HairlineItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-HairlineItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+/* 79 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraLight.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraLight.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraLight.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+/* 80 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraLightItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraLightItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+/* 81 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Light.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Light.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Light.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+/* 82 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-LightItalic.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-LightItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-LightItalic.ttf') format('ttf');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+/* 83 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Thin.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Thin.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Thin.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+/* 84 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ThinItalic.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ThinItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ThinItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+/* 85 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Regular.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Regular.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* 86 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-RegularItalic.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-RegularItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-RegularItalic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+/* 87 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-SemiBold.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-SemiBold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-SemiBold.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/* 88 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-SemiBoldItalic.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-SemiBoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+/* 89 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Bold.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Bold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Bold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/* 90 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-BoldItalic.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-BoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-BoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+/* 91 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraBold.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraBold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraBold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+/* 92 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraBoldItalic.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraBoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+/* 93 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Black.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Black.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-Black.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+/* 94 */
+@font-face {
+    font-family: 'cmiDisplayCn';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-BlackItalic.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-BlackItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplayCondensed-BlackItalic.ttf') format('ttf');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* end cmiDisplayCn V4*/
+
+/* Previous version (Deprecated) it was used in globalcmi-internal.css and globalcmi-marketing.css files  */
+
+/* cmi-regular V1 */
+
+@font-face {
+    font-family: 'cmi-thin';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-Light.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Light.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Light.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-thin-italic';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-LightItalic.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-LightItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-LightItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-light';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-Light.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Light.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-light-italic';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-LightItalic.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-LightItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-LightItalic.ttf') format('ttf');    
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-regular';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-Regular.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Regular.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-italic';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-RegularItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-RegularItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-RegularItalic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-condensed';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-Regular.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-Regular.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-condensed-italic';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-RegularItalic.woff2') format('woff2'),        
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-RegularItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-RegularItalic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-medium';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBold.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBold.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-medium-italic';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBoldItalic.woff2') format('woff2'),
+         url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBoldItalic.woff') format('woff'),
+         url('https://fonts.cummins.com/fonts/CumminsInnovaText-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-bold';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-Bold.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Bold.woff') format('woff'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-Bold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-bold-italic';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaText-BoldItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-BoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaText-BoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-bold-condensed';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBold.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBold.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-bold-condensed-italic';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBoldItalic.woff2') format('woff2'), 
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBoldItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaTextCondensed-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-black';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Black.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Black.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-Black.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cmi-black-italic';
+    src: url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-BlackItalic.woff2') format('woff2'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-BlackItalic.woff') format('woff'),
+        url('https://fonts.cummins.com/fonts/CumminsInnovaDisplay-BlackItalic.ttf') format('ttf');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+.cmi-thin {
+    font-family: 'cmi-thin';
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+.cmi-thin-italic {
+    font-family: 'cmi-thin-italic';
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+.cmi-light {
+    font-family: 'cmi-light';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+.cmi-light-italic {
+    font-family: 'cmi-light-italic';
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+.cmi-regular {
+    font-family: 'cmi-regular';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.cmi-italic {
+    font-family: 'cmi-italic';
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+.cmi-condensed {
+    font-family: 'cmi-condensed';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.cmi-condensed-italic {
+    font-family: 'cmi-condensed-italic';
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+.cmi-medium {
+    font-family: 'cmi-medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.cmi-medium-italic {
+    font-family: 'cmi-medium-italic';
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+.cmi-bold {
+    font-family: 'cmi-bold';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+.cmi-bold-italic {
+    font-family: 'cmi-bold-italic';
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+.cmi-bold-condensed {
+    font-family: 'cmi-bold-condensed';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+.cmi-bold-condensed-italic {
+    font-family: 'cmi-bold-condensed-italic';
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+.cmi-black {
+    font-family: 'cmi-black';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+.cmi-black-italic {
+    font-family: 'cmi-black-italic';
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
