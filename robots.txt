@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aviatrixalias1.cummins.com/sitemap.xml
